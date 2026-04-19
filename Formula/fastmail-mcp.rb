@@ -1,7 +1,7 @@
 class FastmailMcp < Formula
   desc "MCP server for Fastmail — email, calendar, contacts, Sieve, and more via JMAP"
   homepage "https://github.com/shellguard/fastmail-mcp"
-  url "https://github.com/shellguard/fastmail-mcp/archive/refs/tags/v1.0.0.tar.gz"
+  url "https://github.com/shellguard/fastmail-mcp.git", tag: "v1.0.0"
   license "MIT"
 
   depends_on "go" => :build
